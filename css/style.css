@@ -39,11 +39,29 @@ p {
     font-size: 1rem;
 }
 
-.paragrafo, .lista {
+.paragrafo, .lista, .tabella {
     margin-top: 20px;
 }
 
 .selezione {
     background-color: yellow;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
+
+.riga-colore {
+    background-color: aqua;
+}
+
+td {
+
 }
 
