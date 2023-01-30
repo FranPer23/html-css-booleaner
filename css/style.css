@@ -5,3 +5,45 @@
     box-sizing: border-box;
 }
 
+/*HEADER*/
+header {
+    height: 180px;
+    background-image: url(../img/pattern.png);
+    background-color: rgb(142, 142, 207);
+}
+
+.img-header { 
+    width: 50%;
+    height: 50%;   
+}
+
+/*MAIN*/
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h4, h5 {
+    color: lightgray;
+}
+
+#autore {
+    color: rgb(105, 181, 231);
+}
+
+#immagini {
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.paragrafo, .lista {
+    margin-top: 20px;
+}
+
+.selezione {
+    background-color: yellow;
+}
+
