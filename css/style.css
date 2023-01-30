@@ -24,7 +24,7 @@ header {
 }
 
 h4, h5 {
-    color: lightgray;
+    color: darkgrey;
 }
 
 #autore {
@@ -39,7 +39,7 @@ p {
     font-size: 1rem;
 }
 
-.paragrafo, .lista, .tabella {
+.paragrafo, .lista, .tabella, .testo-footer {
     margin-top: 20px;
 }
 
@@ -61,7 +61,6 @@ th {
     background-color: aqua;
 }
 
-td {
 
-}
+
 
