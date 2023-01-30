@@ -14,7 +14,9 @@ header {
 
 .img-header { 
     width: 50%;
-    height: 50%;   
+    height: 80%; 
+    margin-left: 80px;
+    
 }
 
 /*MAIN*/
@@ -36,11 +38,14 @@ h4, h5 {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .paragrafo, .lista, .tabella, .testo-footer {
     margin-top: 20px;
+}
+.lista {
+    margin-left: 15px;
 }
 
 .selezione {
@@ -49,18 +54,48 @@ p {
 
 table {
     width: 100%;
-    text-align: center;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+td {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 5em;
 }
 
 th {
     background-color: blue;
     color: white;
+    padding-right: 1em;
 }
 
 .riga-colore {
     background-color: aqua;
 }
 
+/*FOOTER*/
+.monitor {
+    background-image: url(../img/monitor.jpg);
+   
+}
 
+.graph {
+    background-image: url(../img/graph.jpg);
+
+}
+
+.monitor, .graph {
+    margin-top: 10px;
+    height: 200px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.testo-finale {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+    font-size: 1.5rem;
+}
 
 
